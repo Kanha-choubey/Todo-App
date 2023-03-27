@@ -6,7 +6,12 @@ function ListGroup({ todo, deleteTodo, edit }) {
   return (
     <ul className="collection">
       {todo.map((todos, i) => (
-        <ListItem key={i} todos={todos} deleteTodo={deleteTodo} edit={edit} />
+        <ListItem
+          key={todos.id}
+          todos={todos}
+          deleteTodo={deleteTodo}
+          edit={edit}
+        />
       ))}
     </ul>
   );
