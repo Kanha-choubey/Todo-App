@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
       <div className="nav-wrapper indigo darken-1">
         <a href="#" className="brand-logo center">
-          "Ultimate Todo List";
+          "Ultimate Todo List"
         </a>
       </div>
     </nav>
