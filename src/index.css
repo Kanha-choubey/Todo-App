@@ -1,0 +1,17 @@
+.container{
+    margin-top: 50px;
+}
+
+#save-btn{
+    width: 100%;
+    margin-right: 2px;
+}
+.update{
+    margin-right: 5px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
